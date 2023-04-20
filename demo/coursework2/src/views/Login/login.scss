@@ -1,0 +1,20 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #369;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .content{
+        h2{
+            margin-left: 15%;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #fff;
+        }
+        width: 500px;
+        border: 1px rgba(#2B9AD9, 0.4);
+        padding-top: 20px;
+
+    }
+}
