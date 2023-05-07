@@ -1,0 +1,105 @@
+.single{
+    display: flex;
+    gap: 50px;
+
+    .content{
+        flex: 5;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+          }
+  
+          .provider {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 14px;
+            img {
+              width: 50px;
+              height: 50px;
+              border-radius: 50%;
+              object-fit: cover;
+            }
+  
+            span {
+              font-weight: bold;
+            }
+          }
+          .edit {
+            display: flex;
+            gap: 5px;
+  
+            img {
+              width: 20px;
+              height: 20px;
+              cursor: pointer;
+            }
+          }
+
+          .desc{
+            h1 {
+                font-size: 42px;
+                color: #333;
+              }
+      
+              p {
+                text-align: justify;
+                line-height: 30px;
+              }
+          }
+    }
+
+    .menu {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+
+        h1 {
+          font-size: 20px;
+          color: #555;
+        }
+
+        .service {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+          }
+
+          h2 {
+            font-size: 16px;
+            color: #555;
+          }
+          h3 {
+            font-size: 14px;
+            color: #557;
+          }
+
+          button {
+            width: max-content;
+            padding: 7.5px 15px;
+            border: none;
+            cursor: pointer;
+            color: teal;
+            background-color: white;
+            border: 1px solid teal;
+
+            &:hover {
+              border: 1px solid #b9e7e7 ;
+              background-color: white;
+              color: black;
+            }
+          }
+        }
+      }
+}
